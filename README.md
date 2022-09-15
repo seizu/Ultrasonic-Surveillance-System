@@ -18,7 +18,7 @@ The firmware is written in C++ and contains the logic for processing sensor data
 switching relays and exchanging data via Bluetooth.  
 <img src="./media/image3.png" /> 
 
-* A Python client app running in a Linux environment is responsible to
+* A Python client app running in a Linux environment (Raspberry PI) is responsible to
 establish the connection to the ESP32 controller. The client should
 transmit configuration parameters to the controller and receive sensor
 data in real time from the controller.  
