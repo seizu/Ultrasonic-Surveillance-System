@@ -1,5 +1,6 @@
 ## Ultrasonic-Surveillance-System
-### Arduino based project using ultrasonic sensors to monitor areas. Bidirectional communication via Bluetooth.  
+### Arduino-based project using ultrasonic sensors to monitor areas with bidirectional communication and notification via Bluetooth. 
+Ultrasonic sensors were deliberately chosen for this project. The range compared to infrared sensors is lower (0-3 meters), but they are more accurate and are not affected by sunlight or shading. The application area for this circuit is manifold. For example, an automatic light control when someone enters a certain area of the front yard. A garage door control, two sensors are responsible for opening the door and a third sensor detects the distance between garage wall and car and closes the door. 
 <img src="./media/image4.png" style="width:7.26806in;height:3.56111in" />
 
 ### Spec:
@@ -28,3 +29,8 @@ measuring range of the ultrasonic sensors in cm. The configuration is to
 be stored permanently on the ESP32. Received data (distance and relay
 state) should be passed to the standard output and/or to a Telegram
 chat. Communication between ESP32 and client must be password protected.
+
+### Breadboard sketch
+
+* In the development phase the program Fritzing is used to create a sketch of the circuit.  
+<img src="./media/BreadboardSketch.jpg" />
