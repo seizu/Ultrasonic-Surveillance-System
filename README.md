@@ -22,13 +22,13 @@ switching relays and exchanging data via Bluetooth.
 * A Python client app running in a Linux environment (Raspberry PI) is responsible to
 establish the connection to the ESP32 controller. The client should
 transmit configuration parameters to the controller and receive sensor
-data in real time from the controller.  
+data in real time from the controller. Received data (distance and relay
+state) should be passed to the standard output and/or to a Telegram
+chat.
   
 * Configuration parameters are: Relays time span in milliseconds and
 measuring range of the ultrasonic sensors in cm. The configuration is to
-be stored permanently on the ESP32. Received data (distance and relay
-state) should be passed to the standard output and/or to a Telegram
-chat. Communication between ESP32 and client must be password protected.
+be stored permanently on the ESP32. Communication between ESP32 and client must be password protected.
 
 ### Breadboard sketch
 
