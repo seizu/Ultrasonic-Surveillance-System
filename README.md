@@ -1,6 +1,6 @@
 ## Ultrasonic-Surveillance-System
 ### Arduino-based project using ultrasonic sensors to monitor areas with bidirectional communication and notification via Bluetooth. 
-Ultrasonic sensors were deliberately chosen for this project. The range compared to infrared sensors is lower (0-3 meters), but they are more accurate and are not affected by sunlight or shading. The application area for this circuit is manifold. For example, an automatic light control when someone enters a certain area of the front yard. A garage door control, two sensors are responsible for opening the door and a third sensor detects the distance between garage wall and car and closes the door. 
+Ultrasonic sensors were deliberately chosen for this project. The range compared to infrared sensors is lower (0-3 meters), but they are more accurate and are not affected by sunlight or shading. The application area for this circuit is manifold. For example, an automatic light control when someone enters a certain area of the front yard. A garage door control. Two sensors are responsible for opening the door and on the other hand a third sensor detects the distance between garage wall and car and closes the door. 
 <img src="./media/image4.png" style="width:7.26806in;height:3.56111in" />
 
 ### Spec:
