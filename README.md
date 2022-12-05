@@ -16,7 +16,7 @@ relay (2-relay module 5V) should be switched active for a certain time.
 
 * An ESP32 microcontroller is used to control sensors and relays.
 The firmware is written in C++ and contains the logic for processing sensor data,
-switching relays and exchanging data via Bluetooth.  
+switching relays and data exchange via Bluetooth.  
 <img src="./media/image3.png" /> 
 
 * A Python client app running in a Linux environment (Raspberry PI) is responsible to
